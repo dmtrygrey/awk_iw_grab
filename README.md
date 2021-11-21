@@ -10,7 +10,7 @@ Might work with some older versions too.
 
 ### Usage
 ```bash
-# iw dev wlan0 scan | awk -f parse.awk
+# iw dev wlan0 scan | gawk -f parse.awk
 ```
 Output with test router:
 ```
